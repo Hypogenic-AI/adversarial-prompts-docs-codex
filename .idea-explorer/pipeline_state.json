@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-01-03T14:58:14.430464",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-01-03T14:58:14.431081",
+      "completed_at": "2026-01-03T15:13:20.736837",
+      "success": true,
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2026-01-03T15:13:20.737192",
+      "completed_at": "2026-01-03T15:26:46.448367",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 805.6702833175659,
+        "log_file": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/logs/execution_codex.log",
+        "transcript_file": "/data/hypogenicai/workspaces/adversarial-prompts-docs-codex/logs/execution_codex_transcript.jsonl"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": true,
+  "completed_at": "2026-01-03T15:26:46.449075"
+}
